@@ -1,1 +1,1 @@
-param location string = resourceGroup().local
+param location string = resourceGroup().location
