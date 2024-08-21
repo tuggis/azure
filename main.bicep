@@ -27,6 +27,11 @@ resource myVnet1 'Microsoft.Network/virtualNetworks@2019-11-01' = {
         properties: {
           addressPrefix: '10.0.3.0/24'
         }
+{
+        name: 'subnet-3'
+        properties: {
+          addressPrefix: '10.0.3.0/24'
+        }
     ]
   }
 }
