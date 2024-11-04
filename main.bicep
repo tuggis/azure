@@ -7,6 +7,7 @@ resource myVnet1 'Microsoft.Network/virtualNetworks@2019-11-01' = {
     addressSpace: {
       addressPrefixes: [
         '10.0.0.0/16'
+        '10.1.0.0/16'
       ]
     }
     subnets: [
