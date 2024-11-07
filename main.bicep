@@ -1,5 +1,7 @@
 param location string = resourceGroup().location
 
+//This is another silly test!
+
 resource myVnet1 'Microsoft.Network/virtualNetworks@2019-11-01' = {
   name: 'myVnet1'
   location: location
